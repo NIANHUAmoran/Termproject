@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.termproject.mapper.BookMapper">
+
+  <resultMap id="bookMap" type="com.example.termproject.entity.BookEntity">
+        <id property="bookid" column="bookid"/>
+        <id property="bookname" column="bookname"/>
+        <id property="author1" column="author1"/>
+        <id property="author2" column="author2"/>
+        <id property="author3" column="author3"/>
+        <id property="pubdate" column="pubdate"/>
+        <id property="publish" column="publish"/>
+        <id property="photo" column="photo"/>
+        <id property="content" column="content"/>
+        <id property="price" column="price"/>
+        <id property="isbn" column="isbn"/>
+        <id property="bookclass" column="bookclass"/>
+        <id property="booktype" column="booktype"/>
+  </resultMap>
+</mapper>

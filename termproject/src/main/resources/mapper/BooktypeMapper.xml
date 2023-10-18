@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.termproject.mapper.BooktypeMapper">
+
+  <resultMap id="booktypeMap" type="com.example.termproject.entity.BooktypeEntity">
+        <id property="typeid" column="typeid"/>
+        <id property="typename" column="typename"/>
+        <id property="demo" column="demo"/>
+  </resultMap>
+</mapper>

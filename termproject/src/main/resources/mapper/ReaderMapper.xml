@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.termproject.mapper.ReaderMapper">
+
+  <resultMap id="readerMap" type="com.example.termproject.entity.ReaderEntity">
+        <id property="readerid" column="readerid"/>
+        <id property="name" column="name"/>
+        <id property="telephone" column="telephone"/>
+        <id property="email" column="email"/>
+        <id property="dept" column="dept"/>
+        <id property="entitlement" column="entitlement"/>
+        <id property="readertype" column="readertype"/>
+        <id property="demo" column="demo"/>
+  </resultMap>
+</mapper>
